@@ -1,4 +1,10 @@
-#encoding=gbk
+#encoding=utf8
+'''
+@author: huangjin (Jeff)
+@contact: hj51yc@gmail.com
+FTRL algorithm published by google
+'''
+
 import sys
 import math
 import datetime
@@ -121,9 +127,8 @@ class FTRL:
 
 
 if __name__ == '__main__':
-    train_file = u'D:/资料/机器学习/online在线学习/train/train.csv'
-    test_file = u'D:/资料/机器学习/online在线学习/test/test.csv'
-    #train_file = u'D:/资料/机器学习/online在线学习/test/test.csv'
+    train_file = u'./train/train.csv'
+    test_file = u'./test/test.csv'
     submission_file = 'submission_file'
     model_file = 'model_file'
     ftrls = []
